@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "heron.kicad_pro",
+    "filename": "thumbboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -482,7 +482,7 @@
   },
   "sheets": [
     [
-      "91d7ba95-62c7-472d-ba26-c2ab3e5714ed",
+      "7b004c99-6bcb-4fa5-9aa1-9e98c42a949d",
       ""
     ]
   ],
