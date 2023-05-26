@@ -375,11 +375,11 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 86405b6b-121c-421f-bf47-db5548aa7f65)
     )
-    (fp_text value "Conn_01x05_MountingPin" (at 0 -7.7 180) (layer "B.Fab")
+    (fp_text value "Conn_01x05_MountingPin" (at 0 -7.7 180) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c00e763c-d995-4b3b-a223-758865c80065)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.9 180) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.9 180) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 654eada5-8188-488e-9f15-90e997e6fcee)
     )
