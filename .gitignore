@@ -2,3 +2,4 @@ fp-info-cache
 *.dxf
 *.zip
 *-backups/
+#auto_saved_files#
