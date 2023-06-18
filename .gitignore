@@ -3,3 +3,5 @@ fp-info-cache
 *.zip
 *-backups/
 \#auto_saved_files#
+plot/*
+plotpanel/*

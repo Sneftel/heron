@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "cols": "5",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "6mm",
+        "hcount": "0",
+        "patchcorners": "False"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "F.SilkS"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "5mm",
+        "mintotalheight": "90mm"
+    },
+    "post": {
+        "reconstructarcs": "True"
+    },
+    "debug": {
+        "drawPartitionLines": "True"
+    }
+}
