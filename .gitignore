@@ -1,7 +1,11 @@
 fp-info-cache
 *.dxf
+*.stl
 *.zip
 *-backups/
 \#auto_saved_files#
+plot/
+plotpanel/
 plot/*
 plotpanel/*
+*.FCStd1
