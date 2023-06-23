@@ -9,3 +9,4 @@ plotpanel/
 plot/*
 plotpanel/*
 *.FCStd1
+*_autosave-*
