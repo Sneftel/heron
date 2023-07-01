@@ -1,21 +1,3 @@
-{
-    "layout": {
-        "alternation": "rows",
-        "vspace": "2mm"
-    },
-    "tabs": {
-        "type": "annotation",
-        "tabfootprints": "PCM_kikit:Tab"
-    },
-    "cuts": {
-        "type": "vcuts",
-        "offset": "-0.2mm",
-        "layer": "F.SilkS"
-    },
-    "framing": {
-        "type": "frame",
-        "mintotalheight": "80mm",
-        "mintotalwidth": "80mm",
-        "cuts": "none"
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07bfe7ccb17544c773c0309334d71d3058af3be4ce3c2ec14ec284dc497bb19f
+size 412

@@ -1,2 +1,3 @@
-Width: 46.572 mm
-Height: 55.192 mm
+version https://git-lfs.github.com/spec/v1
+oid sha256:899d6668078da798036d1e2f2e121be458157e032bfa0c8df2b0721743214735
+size 35
