@@ -5,12 +5,12 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Connector_Generic:Conn_01x05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x05_MountingPin" (at 1.27 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "Conn_01x05" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -21,13 +21,13 @@
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*_1x??-1MP*" (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x05_MountingPin_1_1"
+      (symbol "Conn_01x05_1_1"
         (rectangle (start -1.27 -4.953) (end 0 -5.207)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -52,17 +52,6 @@
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
-        (polyline
-          (pts
-            (xy -1.016 -7.112)
-            (xy 1.016 -7.112)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (text "Mounting" (at 0 -6.731 0)
-          (effects (font (size 0.381 0.381)))
-        )
         (pin passive line (at -5.08 5.08 0) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -82,10 +71,6 @@
         (pin passive line (at -5.08 -5.08 0) (length 3.81)
           (name "Pin_5" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -10.16 90) (length 3.048)
-          (name "MountPin" (effects (font (size 1.27 1.27))))
-          (number "MP" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -158,9 +143,6 @@
     )
   )
 
-
-  (no_connect (at 189.23 92.71) (uuid 790a27c9-971a-42b4-add7-911acfdb5b1d))
-  (no_connect (at 105.41 69.85) (uuid fe28d026-f0e3-4672-9932-1e10d41858c7))
 
   (bus_entry (at 214.63 107.95) (size 2.54 2.54)
     (stroke (width 0) (type default))
@@ -420,7 +402,7 @@
     (uuid e43d9b7b-8a31-44be-aef1-d52c1cc6a873)
   )
 
-  (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin") (at 105.41 80.01 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 105.41 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 080b6d40-7664-43d3-8407-9dbc1c83e18e)
     (property "Reference" "JC_LA" (at 102.87 79.0194 0)
@@ -429,7 +411,7 @@
     (property "Value" "Conn_01x05_MountingPin" (at 102.87 81.5594 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_FFC-FPC:TE_84952-5_1x05-1MP_P1.0mm_Horizontal" (at 105.41 80.01 0)
+    (property "Footprint" "panelization:FFC clamp fit 1x05 1.00mm" (at 105.41 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 80.01 0)
@@ -440,7 +422,6 @@
     (pin "3" (uuid 5bb801f1-660c-48b0-9880-6eeca9321133))
     (pin "4" (uuid ab10266a-f465-4c57-85ff-4209f4bd535e))
     (pin "5" (uuid c2a4e62c-c65e-4dea-bbf1-ac6689f165a0))
-    (pin "MP" (uuid 4c592a33-e62a-4ce4-be5e-c1328b510ced))
     (instances
       (project "centerboard"
         (path "/4cf5c873-f5e9-4261-911c-886f387fb0f3"
@@ -736,7 +717,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin") (at 189.23 102.87 180) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x05") (at 189.23 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8188ce9-3f1f-4ba4-a8ba-e7c19f195001)
     (property "Reference" "JC_LA" (at 186.69 101.8794 0)
@@ -745,7 +726,7 @@
     (property "Value" "Conn_01x05_MountingPin" (at 186.69 104.4194 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_FFC-FPC:TE_84952-5_1x05-1MP_P1.0mm_Horizontal" (at 189.23 102.87 0)
+    (property "Footprint" "panelization:FFC clamp fit 1x05 1.00mm" (at 189.23 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 102.87 0)
@@ -756,7 +737,6 @@
     (pin "3" (uuid 6cc33784-990c-4204-8b7a-8886f6b16c75))
     (pin "4" (uuid c6870339-0070-4909-a218-1d6613e8f548))
     (pin "5" (uuid 610d6b99-2d1d-4125-9cfe-a1630c7b28ba))
-    (pin "MP" (uuid 75497231-9cc1-40c9-9615-cd9e55c681eb))
     (instances
       (project "centerboard"
         (path "/4cf5c873-f5e9-4261-911c-886f387fb0f3"
